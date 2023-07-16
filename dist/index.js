@@ -15,6 +15,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 require("./config");
+__exportStar(require("./cache"), exports);
 __exportStar(require("./generators"), exports);
 __exportStar(require("./secure"), exports);
 __exportStar(require("./utils"), exports);
