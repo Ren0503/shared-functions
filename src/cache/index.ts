@@ -61,10 +61,6 @@ export class LRUCache {
     }
   }
 
-  delete(key: string) {
-    this.cache.delete(key)
-  }
-
   private moveToHead(node: INode) {
     this.removeNode(node)
     this.addToHead(node)

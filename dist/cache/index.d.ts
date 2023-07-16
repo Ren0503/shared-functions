@@ -17,7 +17,6 @@ export declare class LRUCache {
     });
     get(key: string): any;
     set(key: string, value: any): void;
-    delete(key: string): void;
     private moveToHead;
     private removeNode;
     private addToHead;

@@ -48,9 +48,6 @@ class LRUCache {
             }
         }
     }
-    delete(key) {
-        this.cache.delete(key);
-    }
     moveToHead(node) {
         this.removeNode(node);
         this.addToHead(node);
